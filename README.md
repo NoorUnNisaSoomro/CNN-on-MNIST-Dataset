@@ -2,11 +2,11 @@
 Performing CNN model MNIST Dataset 
 This project demonstrates the implementation of a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset. The MNIST dataset is a well-known benchmark in the field of machine learning and computer vision, consisting of grayscale images of digits ranging from 0 to 9.
 
-Overview
+**Overview**
 
 The goal of this project is to build a CNN that achieves high accuracy in classifying the digits in the MNIST dataset. The project includes steps such as data preprocessing, building the CNN model, training the model, and evaluating its performance.
 
-Dataset
+**Dataset**
 
 The MNIST dataset consists of:
 
@@ -18,7 +18,7 @@ Each image is a 28x28 grayscale image of a single digit (0-9).
 
 The dataset is preprocessed to normalize pixel values to the range [0, 1] for faster convergence during training.
 
-Model Architecture
+**Model Architecture**
 
 The CNN model consists of the following layers:
 
@@ -28,7 +28,7 @@ Pooling Layers: Downsample the feature maps to reduce dimensionality and computa
 
 Fully Connected Layers: Perform classification based on the extracted features.
 
-Installation
+**Installation**
 
 To run the notebook and train the model, follow these steps:
 
@@ -44,7 +44,7 @@ Install the required dependencies:
 
 pip install -r requirements.txt
 
-Usage
+**Usage**
 
 Open the Jupyter Notebook:
 
@@ -62,7 +62,7 @@ Evaluate the model on the test dataset.
 
 Visualize results such as accuracy and loss.
 
-Results
+**Results**
 
 The trained CNN achieves the following metrics on the test dataset:
 
@@ -70,13 +70,13 @@ Accuracy: Approximately 98%
 
 Loss: Low loss, demonstrating good generalization.
 
-Visualizations include:
+**Visualizations include:**
 
 Training and validation accuracy/loss plots.
 
 Examples of correct and incorrect predictions.
 
-Technologies Used
+**Technologies Used**
 
 Programming Language: Python
 
@@ -84,7 +84,7 @@ Deep Learning Framework: TensorFlow/Keras
 
 Libraries: NumPy, Matplotlib
 
-Acknowledgments
+**Acknowledgments**
 
 The MNIST dataset is provided by Yann LeCun and is available at MNIST Database.
 
