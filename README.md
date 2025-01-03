@@ -34,7 +34,7 @@ To run the notebook and train the model, follow these steps:
 
 Clone the repository:
 
-git clone [<repository_url>](https://github.com/NoorUnNisaSoomro/CNN-on-MNIST-Dataset/edit/main/)
+git clone <[repository_url](https://github.com/NoorUnNisaSoomro/CNN-on-MNIST-Dataset/blob/main/CNN_on_MNIST_dataset.ipynb)>
 
 Navigate to the project directory:
 
